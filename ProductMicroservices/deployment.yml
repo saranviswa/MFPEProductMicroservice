@@ -15,7 +15,7 @@ spec:
             app: ProductMicroservices
     spec: 
         containers: 
-        - name: webapiecommercecr
+        - name: productmicroservicecr
           image: mynewecommercecr.azurecr.io/webapiecommercecr:latest
           ports: 
           - containerPort: 8080
