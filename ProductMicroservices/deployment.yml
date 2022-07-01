@@ -15,8 +15,8 @@ spec:
             app: ProductMicroservices
     spec: 
         containers: 
-        - name: productmicroservicecr
-          image: ecommerceregistry123.azurecr.io/productmicroservicecr
+        - name: webapiecommercecr
+          image: mynewecommercecr.azurecr.io/webapiecommercecr:latest
           ports: 
           - containerPort: 8080
         imagePullSecrets:
