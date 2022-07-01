@@ -1,0 +1,34 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: productmicroservice-deployment
+  labels:
+    app: ProductMicroservices
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+        app: ProductMicroservices
+  template: 
+    metadata: 
+        labels: 
+            app: ProductMicroservices
+    spec: 
+        containers: 
+        - name: productmicroservicecr
+          image: ecommerceregistry123.azurecr.io/productmicroservicecr
+          ports: 
+          - containerPort: 8080
+        imagePullSecrets:
+        - name: webapisvcsecret
+---
+apiVersion: v1
+kind: Service
+metadata: 
+    name: productmicroservice
+spec: 
+    type: LoadBalancer
+    ports: 
+    - port: 80
+    selector:
+        app : ProductMicroservices
