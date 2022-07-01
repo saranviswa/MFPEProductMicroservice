@@ -146,3 +146,4 @@ C:\Users\bsara\OneDrive\Desktop\CTS_Seminar\Retail-Product-Management-main Final
 C:\Users\bsara\OneDrive\Desktop\CTS_Seminar\Retail-Product-Management-main Final\Retail-Product-Management-main\ProductMicroservices\ProductMicroservices\obj\Debug\netcoreapp3.1\ProductMicroservices.dll
 C:\Users\bsara\OneDrive\Desktop\CTS_Seminar\Retail-Product-Management-main Final\Retail-Product-Management-main\ProductMicroservices\ProductMicroservices\obj\Debug\netcoreapp3.1\ProductMicroservices.pdb
 C:\Users\bsara\OneDrive\Desktop\CTS_Seminar\Retail-Product-Management-main Final\Retail-Product-Management-main\ProductMicroservices\ProductMicroservices\obj\Debug\netcoreapp3.1\ProductMicroservices.genruntimeconfig.cache
+C:\Users\bsara\OneDrive\Desktop\CTS_Seminar\Retail-Product-Management-main Final\Retail-Product-Management-main\ProductMicroservices\ProductMicroservices\bin\Debug\netcoreapp3.1\deployment.yml
